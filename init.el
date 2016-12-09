@@ -23,6 +23,7 @@
 (require 'column-marker)
 (add-hook 'python-mode-hook (lambda () (interactive) (column-marker-1 80)))
 (add-hook 'c-mode-hook (lambda () (interactive) (column-marker-1 80)))
+(add-hook 'c++-mode-hook (lambda () (interactive) (column-marker-1 80)))
 ;;Auto-complete
 (add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
 (require 'auto-complete-config)
